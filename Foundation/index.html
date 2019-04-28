@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no; ,initial-scale=1.0"
+    <meta name="description" content="Blog de Música">
+    <meta name="keywords" content="blog,música,bootstrap">
+    <meta name="author" content="Ronan Alvarez">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="icon" href="img/icono.png">
+    <title>Blog de Gastronomía - Foundation</title>
+  </head>
+  <body class="blog-body">
+    <!-- CONTENEDOR -->
+    <div class="container">
+      <!-- TITULO DE LA PAGINA WEB -->
+      <div class="row titulo">
+        <div class="columns large-4 medium-4 small-12 nombre-blog">
+          <h1 class="text-center medium-text-left large-text-left">Foodies...</h1>
+          <p class="text-center medium-text-right large-text-right eslogan">Blog dedicado a los amantes de <br>la comida y el buen gusto</p>
+        </div>
+      </div>
+      <!-- INFORMACION PRINCIPAL -->
+      <div class="row principal">
+        <!-- COLUMNA IZQUIERDA, DESAPARECE PARA PANTALLAS SMALL -->
+        <div class="columns large-4 medium-4 hide-for-small-only">
+          <div class="callout primario">
+          <form>
+            <!-- BUSQUEDA -->
+            <div class="input-group">
+              <button type="button" name="button"><i class="button fi-magnifying-glass"></i></button>
+              <input type="text" placeholder="Buscar">
+            </div>
+            <!-- LINKS -->
+            <div class="button-group stacked">
+              <a href="#" class="button">Inicio</a>
+              <a href="#" class="button">Mi plato perfecto</a>
+              <a href="#" class="button">Mis recetas</a>
+            </div>
+          </form>
+          <!-- FOTOS DE FAVORITOS -->
+          <h6>Favoritos:</h6>
+          <div class="row favorito-fila">
+            <div class="column large-4 favorito-img">
+              <a href="#" ><img src="img/camarones.jpg" alt="Camarones" class="thumbnail"></a>
+            </div>
+            <div class="column large-4 favorito-img">
+              <a href="#"><img src="img/cayos.jpg" alt="Cayos" class="thumbnail"></a>
+            </div>
+            <div class="column large-4 favorito-img">
+              <a href="#"><img src="img/pasta.jpg" alt="Pasta" class="thumbnail"></a>
+            </div>
+          </div>
+          <div class="row favorito-fila">
+            <div class="column large-4 favorito-img">
+              <a href="#" ><img src="img/china.jpg" alt="Comida china" class="thumbnail"></a>
+            </div>
+            <div class="column large-4 favorito-img">
+              <a href="#"><img src="img/pollo.jpg" alt="Pollo" class="thumbnail"></a>
+            </div>
+            <div class="column large-4 favorito-img">
+              <a href="#"><img src="img/pulpo.jpg" alt="Pulpo" class="thumbnail"></a>
+            </div>
+          </div>
+          <!-- HISTORIAL DEL BLOG -->
+          <div class="row column">
+            <h6>Historial:</h6>
+            <ul class="no-bullet historial-lista">
+              <li><a href="#">Espagueti a la napolitana</a></li>
+              <li><a href="#">Club house</a></li>
+              <li><a href="#">Banana split</a></li>
+              <li><a href="#">Torta negra</a></li>
+              <li><a href="#">Pabellon</a></li>
+              <li><a href="#">Picada Mixta</a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+        <!-- COLUMNA DERECHA -->
+        <div class="columns large-8 medium-8 small-12">
+          <!-- PRIMERA PUBLICACION -->
+          <div class="primario callout text-justify">
+            <h4>¿Cuál es tu plato/comida favorito?</h4>
+            <h6 class="publicacion-subtitulo"><i>20 de Abril de 2018</i></h6>
+            <img src="img/pizza.jpg" alt="Pizza" class="thumbnail float-center">
+            <p> Pues eso, esa comida que aunque estando lleno no la rechazarias, esa que puedes comer hasta reventarte, pero morir sonriendo, esa que no importa si se te cae al piso ,de todas formas te la comes (ok ya creo que exagere).<br>
+            La mia es: pizza y sushi.
+            </p>
+            <hr>
+            <!-- INPUT PARA COMENTAR -->
+            <div class="input-group">
+              <textarea name="comentario" rows="2" placeholder="Comentario..."></textarea>
+              <a href="#" class="button float-right">Publicar
+                <i class="fi-page-edit"></i>
+              </a>
+            </div>
+            <!-- COMENTARIOS -->
+            <div class="callout">
+              <div class="row align-middle">
+                <div class="column large-2 medium-2 small-3 text-center">
+                  <img src="img/hombre.png" alt="Hombre">
+                </div>
+                <div class="column large-10 medium-10 small-9">
+                  <span class="text-justify">Lider: uffff, incluye los hot dogs, las hamburguesas, la pasta, la lasaña, el helado, las donas y el chocolate en esa lista por favor. </span>
+                </div>
+              </div>
+            </div>
+            <div class="callout">
+              <div class="row align-middle">
+                <div class="column large-2 medium-2 small-3 text-center">
+                  <img src="img/mujer.png" alt="Mujer">
+                </div>
+                <div class="column large-10 medium-10 small-9">
+                  <span class="text-justify">Mamilla: lo mas rico es siempre lo mas dañino para la salud.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- SEGUNDA PUBLICACION -->
+          <div class="primario callout text-justify">
+            <h4>Hamburguesa Vegana</h4>
+            <h6 class="publicacion-subtitulo"><i>26 de Abril de 2018</i></h6>
+            <img src="img/hamb-vegana.jpg" alt="Hamburguesa Vegana" class="thumbnail float-center">
+            <p> Un clásico americano con una pinta increíble. La hamburguesa vegana es rica en proteínas, fibra, hierro, calcio y potasio, componentes necesarios en toda dieta equilibrada, gracias a los frijoles negros que sirven de sustituto de la carne roja.
+            </p>
+            <hr>
+            <!-- INPUT PARA COMENTAR -->
+            <div class="input-group">
+              <textarea name="comentario" rows="2" placeholder="Comentario..."></textarea>
+              <a href="#" class="button float-right">Publicar
+                <i class="fi-page-edit"></i>
+              </a>
+            </div>
+            <!-- COMENTARIOS -->
+            <div class="callout">
+              <div class="row align-middle">
+                <div class="column large-2 medium-2 small-3 text-center">
+                  <img src="img/hombre.png" alt="Hombre">
+                </div>
+                <div class="column large-10 medium-10 small-9">
+                  <span class="text-justify">Venraag: excelente opción saludable a una comida americana. También se pueden hacer con champiñones portobello o lentejas. En cualquiera de los dos casos, la hamburguesa es deliciosa.</span>
+                </div>
+              </div>
+            </div>
+            <div class="callout">
+              <div class="row align-middle">
+                <div class="column large-2 medium-2 small-3 text-center">
+                  <img src="img/mujer.png" alt="Mujer">
+                </div>
+                <div class="column large-10 medium-10 small-9">
+                  <span class="text-justify">Toyita: quiero cinco, ¿dondé las puedo comprar?</span>
+                </div>
+              </div>
+            </div>
+            <div class="callout">
+              <div class="row align-middle">
+                <div class="column large-2 medium-2 small-3 text-center">
+                  <img src="img/mujer.png" alt="Mujer">
+                </div>
+                <div class="column large-10 medium-10 small-9">
+                  <span class="text-justify">Dulce: mañana se las preparo a mis nietos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

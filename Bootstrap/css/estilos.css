@@ -1,0 +1,117 @@
+.blog-body{
+  background-color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.logo-row{
+  background: #80cbc4 !important;
+}
+.logo-img{
+  width: 200px;
+  margin-left: 10px;
+}
+.redes-sociales{
+  float: right;
+  padding-top: 110px;
+  margin-right: 15px;
+  width: 270px;
+}
+.social-img{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.social-img:hover{
+  opacity: 0.6;
+}
+.navbar-estilo{
+  background: grey;
+  min-height: 10%;
+  border: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.btn-estilo{
+  width: 85%;
+  background-color: #80cbc4;
+  border-color: #80cbc4;
+}
+.btn-estilo:hover {
+  background-color: #26a69a;
+  border-color: #26a69a;
+}
+.btn-activo{
+  font-style: italic;
+  font-weight: bold;
+}
+.contenido{
+  background: #80cbc4 !important;
+  padding-bottom: 10px;
+}
+.titulo{
+  margin-top: 0.5rem !important;
+}
+.contenido-texto{
+  font-size: 0.8rem !important;
+  text-align: justify;
+}
+.contenido-imagen{
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.input-element{
+  color: black !important;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+.busqueda-columna{
+  margin-top: 0.5rem !important;
+}
+.btn-busqueda{
+  width: 100%;
+  background-color: #fff;
+  border-color: #4db6ac;
+  background: rgba(0, 0, 0, 0.25);
+  margin-bottom: 0.25rem !important;
+}
+.btn-busqueda:hover {
+  background-color: #4db6ac;
+  border-color: #4db6ac;
+}
+
+@media (max-width: 767px) {
+  .gone-column {
+    display: none;
+  }
+  .logo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contenido-imagen{
+    padding-top: 5px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .redes-sociales{
+    padding-top: 1rem;
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 576px) {
+  .blog-body{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 376px) {
+  .input-element{
+    width: 80%;
+  }
+}
